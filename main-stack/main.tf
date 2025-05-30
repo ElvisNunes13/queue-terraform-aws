@@ -9,6 +9,7 @@ terraform {
     bucket = "s3-bucket-name"
     key    = "main-stack/terraform.tfstate"
     region = "us-west-1"
+    dynamodb_table = "table_name"
   }
 }
 
